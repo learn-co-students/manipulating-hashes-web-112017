@@ -5,9 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
   #code your solution here!
+  something =  groceries.values
 
-  
+  something = something.join(' ')
+  something = something.split(' ')
 
 end
