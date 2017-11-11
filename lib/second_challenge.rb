@@ -5,9 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  #code your solution here!
-
-  
-
+  grocery_array = []
+  groceries.each do |food_group, array|
+    array.each do |food| grocery_array.push(food)
+    end
+  end
+  grocery_array
 end
